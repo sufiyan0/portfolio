@@ -14,8 +14,8 @@ export const data = [
         id:'projects'
     },
     {
-        name:'Contect Us',
-        id:'contect'
+        name:'Contact Us',
+        id:'contact'
     }
 
 ]
