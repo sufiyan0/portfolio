@@ -14,7 +14,7 @@ const main = () => {
           <p className='text-xl md:text-2xl mt-6 animate-flip-up animate-once animate-duration-1000 animate-delay-300 animate-ease-linear'>I'm Fruntend Developer based in Panaverse, and I'm very passionate and dedicated to my work.</p>
           <button className='border-2 rounded-md px-6 py-3 my-6 cursor-pointer hover:scale-105 text-cyan-400 font-semibold text-[16px] md:text-[18px] border-cyan-400 animate-flip-up animate-once animate-duration-1000 animate-delay-300 animate-ease-linear'>About Me</button>
         </div>
-        <div className="  object-cover ">
+        <div className="  object-cover z-0 ">
 
           <Image height={620} src={mypic} alt='my picture' className='rounded-3xl animate-fade-up animate-once animate-duration-1000 animate-delay-500 animate-ease-linear' />
         </div>

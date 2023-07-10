@@ -10,8 +10,8 @@ const Header = () => {
   const [toggle, setToggle] = React.useState(false);
 
   return (
-    <nav>
-      <div className=" fixed w-full bg-slate-900 items-center justify-center content-center h-20 ">
+    <nav className='static' >
+      <div className="static w-full bg-slate-900 items-center justify-center h-20 navbar ">
 
         <div className='flex  max-w-[1280px]  text-white justify-between items-center font-semibold text-lg p-6 mx-auto'>
           <div className="text-2xl leading-4">Portfolio</div>

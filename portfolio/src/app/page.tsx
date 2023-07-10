@@ -14,8 +14,11 @@ export default function Home() {
 
   return (
     <>
-      <div className="w-full bg-slate-800">
+       <div className="overflow-hidden fixed top-0 left-0 w-full">
+
         <Header />
+       </div>
+      <div className="w-full bg-slate-800">
         <Main/>
         <Offer/>
         <About/>
